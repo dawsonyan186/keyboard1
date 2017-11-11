@@ -1,0 +1,22 @@
+main{
+	text-align: center;
+}
+.keyboard kbd {
+    border: 1px solid red;
+    width: 4em;
+    height: 4em;
+    display: inline-block;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.keyboard kbd > button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+
+.keyboard kbd:hover > button {
+    display: inline-block;
+}
